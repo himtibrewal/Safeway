@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/second_color"
+    android:backgroundTint="@color/second_color"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp_10"
+        android:backgroundTint="@color/purple_200">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/login_second"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dp_10"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:bottomLeftRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:gravity="top"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_account_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_30"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:padding="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:id="@+id/et_account_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="Email"
+                    android:inputType="text"
+                    android:padding="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+
+                <EditText
+                    android:id="@+id/et_account_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="Mobile"
+                    android:inputType="text"
+                    android:padding="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:id="@+id/et_account_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="Gender"
+                    android:inputType="text"
+                    android:padding="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_margin="@dimen/dp_20"
+                    android:text="Emergency Details"
+                    android:textColor="@color/black"
+                    android:textFontWeight="@integer/material_motion_duration_long_1" />
+
+
+                <EditText
+                    android:id="@+id/et_account_bloodgroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="Blood Group"
+                    android:inputType="text"
+                    android:padding="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:id="@+id/et_account_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="Age"
+                    android:inputType="text"
+                    android:padding="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+
+                <EditText
+                    android:id="@+id/et_account_econ1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="Emergency Contact 1"
+                    android:inputType="text"
+                    android:padding="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:id="@+id/et_account_econ2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="Emergency contact 2"
+                    android:inputType="text"
+                    android:padding="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+                <EditText
+                    android:id="@+id/et_account_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:background="@drawable/edit_text_border"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/dp_20"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+                <Button
+                    android:id="@+id/btn_signup_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/et_signup_password"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_20"
+                    android:backgroundTint="@color/primary_color"
+                    android:elevation="@dimen/dp_10"
+                    android:padding="@dimen/dp_20"
+                    android:text="Submit"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
